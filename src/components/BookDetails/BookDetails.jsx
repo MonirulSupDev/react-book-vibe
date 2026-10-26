@@ -88,7 +88,7 @@ const BookDetails = () => {
   return (
     <div className="grid lg:grid-cols-2 py-24 gap-10 lg:gap-12 px-4 lg:px-0">
       <Helmet>
-        <title>{`Details of ${bookName}`}</title>
+        <title>{`Details of: ${bookName}`}</title>
       </Helmet>
       <div className="flex justify-center items-center p-18.5 bg-[#131313]/5 rounded-2xl">
         <img src={image} alt={bookName} className="shadow-lg w-auto h-auto" />
