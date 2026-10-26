@@ -1,0 +1,93 @@
+[
+  {
+    "bookId": 1,
+    "bookName": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "image": "/src/assets/images/books/The Silent Patient.jpg",
+    "review": "A gripping psychological thriller about a woman who stops speaking after allegedly murdering her husband. The twist ending recontextualizes everything you've read and will keep you thinking long after the last page.",
+    "totalPages": 336,
+    "rating": 4.5,
+    "category": "Thriller",
+    "tags": ["Suspense", "Psychological"],
+    "publisher": "Celadon Books",
+    "yearOfPublishing": 2019
+  },
+  {
+    "bookId": 2,
+    "bookName": "Atomic Habits",
+    "author": "James Clear",
+    "image": "/src/assets/images/books/Atomic Habits.jpg",
+    "review": "A practical, well-structured guide to building good habits and breaking bad ones through tiny daily improvements. The real-life examples make the ideas easy to apply immediately.",
+    "totalPages": 320,
+    "rating": 4.8,
+    "category": "Self-Help",
+    "tags": ["Productivity", "Habits", "Personal Growth"],
+    "publisher": "Avery",
+    "yearOfPublishing": 2018
+  },
+  {
+    "bookId": 3,
+    "bookName": "Dune",
+    "author": "Frank Herbert",
+    "image": "/src/assets/images/books/Dune.jpg",
+    "review": "An epic science fiction masterpiece blending politics, religion, and ecology on the desert planet Arrakis. Dense and demanding at times, but the world-building is unmatched.",
+    "totalPages": 688,
+    "rating": 4.7,
+    "category": "Science Fiction",
+    "tags": ["Space Opera", "Adventure", "Classic"],
+    "publisher": "Ace Books",
+    "yearOfPublishing": 1965
+  },
+  {
+    "bookId": 4,
+    "bookName": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "image": "/src/assets/images/books/Sapiens_A_Brief_History_of_Humankind.jpg",
+    "review": "A thought-provoking journey through human history, from the Stone Age to the modern era. Harari challenges common assumptions about money, religion, and progress in an engaging way.",
+    "totalPages": 464,
+    "rating": 4.6,
+    "category": "Non-Fiction",
+    "tags": ["History", "Anthropology", "Society"],
+    "publisher": "Harper",
+    "yearOfPublishing": 2015
+  },
+  {
+    "bookId": 5,
+    "bookName": "The Alchemist",
+    "author": "Paulo Coelho",
+    "image": "/src/assets/images/books/The Alchemist.jpg",
+    "review": "A simple yet inspiring fable about a shepherd boy chasing his dream across the desert. Its gentle wisdom about destiny and listening to your heart makes it a comforting, quick read.",
+    "totalPages": 208,
+    "rating": 4.3,
+    "category": "Fiction",
+    "tags": ["Philosophical", "Adventure", "Inspirational"],
+    "publisher": "HarperOne",
+    "yearOfPublishing": 1988
+  },
+  {
+    "bookId": 6,
+    "bookName": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "image": "/src/assets/images/books/Pride and Prejudice.jpg",
+    "review": "A witty and timeless romance following Elizabeth Bennet and Mr. Darcy as pride and first impressions stand in the way of love. Austen's sharp social commentary still feels fresh today.",
+    "totalPages": 432,
+    "rating": 4.6,
+    "category": "Classic Romance",
+    "tags": ["Romance", "Classic", "Social Satire"],
+    "publisher": "Penguin Classics",
+    "yearOfPublishing": 1813
+  },
+  {
+    "bookId": 7,
+    "bookName": "Gone Girl",
+    "author": "Gillian Flynn",
+    "image": "/src/assets/images/books/Gone Girl.jpg",
+    "review": "A dark, twisty thriller told from alternating perspectives after a wife disappears on her fifth anniversary. Sharp, unsettling, and impossible to put down once the secrets begin to unravel.",
+    "totalPages": 432,
+    "rating": 4.1,
+    "category": "Thriller",
+    "tags": ["Mystery", "Suspense", "Psychological"],
+    "publisher": "Crown Publishing",
+    "yearOfPublishing": 2012
+  }
+]

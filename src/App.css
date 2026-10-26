@@ -1,0 +1,63 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("../src/assets/fonts/PlayfairDisplay-VariableFont_wght.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../src/assets/fonts/WorkSans-VariableFont_wght.woff2")
+    format("woff2");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-work-sans: "Work Sans", sans-serif;
+  --font-playfair-display: "Playfair Display", serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-work-sans);
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-308.5 mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn:hover {
+    @apply transition duration-300 ease-in-out transform scale-105 shadow-md active:scale-100;
+  }
+
+  .menu-horizontal a {
+    @apply text-lg text-[#131313]/80 px-5 py-2.75 rounded-lg border border-transparent;
+  }
+
+  .menu-horizontal a.active {
+    @apply text-green-500 font-semibold border border-green-500;
+  }
+
+  .menu-horizontal a:hover {
+    @apply bg-green-500 text-white font-semibold transition duration-300 ease-in-out;
+  }
+  .menu-sm a:hover {
+    @apply bg-green-500 text-white font-semibold transition duration-300 ease-in-out;
+  }
+
+  .primary-btn {
+    @apply bg-green-500 text-white font-semibold text-xs md:text-base px-2 xl:px-7 py-1.75 xl:py-4.5 rounded-lg hover:shadow-md hover:scale-102 transition duration-300 ease-in-out hover:bg-green-600 hover:cursor-pointer active:scale-95;
+  }
+
+  .secondary-btn {
+    @apply bg-sky-500 text-white font-semibold text-xs md:text-base px-2 xl:px-7 py-1.75 xl:py-4.5 rounded-lg hover:shadow-md hover:scale-102 transition duration-300 ease-in-out hover:bg-sky-600 hover:cursor-pointer active:scale-95;
+  }
+}
