@@ -11,6 +11,7 @@ import {
 import { RechartsDevtools } from "@recharts/devtools";
 import { useLoaderData } from "react-router";
 import { getReadBooksFromLocalStorage } from "../../utility/localStorage";
+import { Helmet } from "react-helmet-async";
 
 const colors = [
   "#0088FE",
@@ -106,6 +107,9 @@ const PagesToRead = () => {
   );
   return (
     <div>
+      <Helmet>
+        <title>BookVibe | Pages to Read</title>
+      </Helmet>
       <h2 className="text-2xl font-bold mb-4 text-center">Pages to Read</h2>
       <div className="flex justify-center max-h-[70dvh] px-6">
         <BarChart

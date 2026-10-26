@@ -12,7 +12,7 @@ const Book = ({ book }) => {
         />
       </figure>
       <div className="card-body p-0 pt-6 gap-3">
-        <p className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap items-start gap-2">
           {tags.map((tag) => (
             <a
               key={tag}
@@ -22,7 +22,7 @@ const Book = ({ book }) => {
               {tag}
             </a>
           ))}
-        </p>
+        </div>
         <h2 className="card-title font-bold text-2xl text-[#131313]">
           {bookName}
         </h2>
